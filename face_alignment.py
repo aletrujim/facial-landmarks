@@ -1,3 +1,9 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+@author: alexa
+"""
+
 import face_alignment
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
@@ -5,7 +11,7 @@ from skimage import io
 import collections
 
 
-# Run the 3D face alignment on a test image, without CUDA.
+# Run the 3D face alignment on a test image
 fa = face_alignment.FaceAlignment(face_alignment.LandmarksType._3D, device='cpu', flip_input=True)
 
 try:
