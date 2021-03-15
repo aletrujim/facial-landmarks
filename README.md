@@ -19,4 +19,4 @@ git clone https://github.com/aletrujim/facial-landmarks.git FacialLandmarks
 ### Dataset
 Facial point annotations from [ibug](https://ibug.doc.ic.ac.uk/resources/facial-point-annotations)
 
-<img src="images/facemarks_points.png" width="200"/>
+<img src="images/facemarks_points.png" width="300"/>
